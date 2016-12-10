@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Publish the received messages on a std_msgs/String
-topic for other nodes to be able to do stuff with it.
+When a user asks the Telegram bot what is he seeing
+they get an inline keyboard with all the available
+sensor_msgs/Image topics, when choosing one
+it gets a picture back as a reply. Useful for selfies!
 
 Author: Sammy Pfeiffer <Sammy.Pfeiffer at student.uts.edu.au>
 """

@@ -4,6 +4,13 @@
 # Basic example for a bot that uses inline keyboards.
 # This program is dedicated to the public domain under the CC0 license.
 
+"""
+Command via Twist message a robot base
+from Telegram with a custom Keyboard.
+
+Author: Jordan Lewis <Jordan.Lewis at uts.edu.au>
+"""
+
 import rospy
 from geometry_msgs.msg import Twist
 import logging

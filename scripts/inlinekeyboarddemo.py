@@ -4,6 +4,12 @@
 # Basic example for a bot that uses inline keyboards.
 # This program is dedicated to the public domain under the CC0 license.
 
+"""
+Inline example with a bit of ROS.
+
+Author: Jordan Lewis <Jordan.Lewis at uts.edu.au>
+"""
+
 import rospy
 import logging
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup

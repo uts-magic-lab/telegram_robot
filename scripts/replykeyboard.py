@@ -3,7 +3,13 @@
 #
 # Basic example for a bot that uses inline keyboards.
 # This program is dedicated to the public domain under the CC0 license.
+"""
+Testing making a few buttons on a keyboard.
 
+TODO: Make the robot say the sentences.
+
+Author: Jordan Lewis <Jordan.Lewis at uts.edu.au>
+"""
 import rospy
 import logging
 from telegram import KeyboardButton, ReplyKeyboardMarkup

@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-Publish the received messages on a std_msgs/String
-topic for other nodes to be able to do stuff with it.
+Answer with an image of the /stereo/left/image_raw topic
+when a user asks the Telegram bot for what is he seeing.
 
 Author: Sammy Pfeiffer <Sammy.Pfeiffer at student.uts.edu.au>
 """
