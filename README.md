@@ -12,10 +12,24 @@ sudo pip install python-telegram-bot --upgrade
 You need to get a TOKEN talking to the @botfather bot as [described here](https://core.telegram.org/bots#6-botfather). Remember you can use the [Telegram web client](https://web.telegram.org/), although you still need a phone with telegram to allow connecting to it.s
 
 ## Configure
+Copy from [config/example_token.yaml](config/example_token.yaml) to `token.yaml` and add your token.
 
 ## Launch
+You can test if your token works with:
+```bash
+roslaunch telegram_robot echobot_example.launch
+```
+
+The bot should echo what you write to it.
+
+Launch the actual node:
+
+```bash
+roslaunch telegram_robot telegram_robot.launch
+```
 
 ## What can you do
+
 
 ## How we got here
 Telegram recommends the Python libraries:
