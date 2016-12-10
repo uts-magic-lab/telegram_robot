@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find telegram_robot)/config/token.yaml" command="load" />
+    <node pkg="telegram_robot" type="replykeyboard.py" name="telegram_bot" output="screen"/>
+</launch>
