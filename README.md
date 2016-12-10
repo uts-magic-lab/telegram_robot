@@ -9,7 +9,7 @@ You need `python-telegram-bot`.
 sudo pip install python-telegram-bot --upgrade
 ```
 
-You need to get a TOKEN talking to the @botfather bot as [described here](https://core.telegram.org/bots#6-botfather). Remember you can use the [Telegram web client](https://web.telegram.org/), although you still need a phone with telegram to allow connecting to it.s
+You need to get a TOKEN talking to the @botfather bot as [described here](https://core.telegram.org/bots#6-botfather). Remember you can use the [Telegram web client](https://web.telegram.org/), although you still need a phone with telegram to allow connecting to it.
 
 ## Configure
 Copy from [config/example_token.yaml](config/example_token.yaml) to `token.yaml` and add your token.
