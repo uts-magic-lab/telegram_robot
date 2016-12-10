@@ -25,12 +25,6 @@ roslaunch telegram_robot echobot_example.launch
 
 The bot should echo what you write to it.
 
-Launch the actual node:
-
-```bash
-roslaunch telegram_robot telegram_robot.launch
-```
-
 ## What can you do
 * To publish anything the bot receives in the chat in a `std_msgs/String` topic (`/telegram_bot/telegram_chat`) use:
 ```
