@@ -3,6 +3,13 @@
 Given that the realtime chatting app `Telegram` [enables the use of bots](https://core.telegram.org/bots) why not connect your robot via that service?
 
 ## Requisites
+You need `python-telegram-bot`.
+
+```bash
+sudo pip install python-telegram-bot --upgrade
+```
+
+You need to get a TOKEN talking to the @botfather bot as [described here](https://core.telegram.org/bots#6-botfather). Remember you can use the [Telegram web client](https://web.telegram.org/), although you still need a phone with telegram to allow connecting to it.s
 
 ## Configure
 

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>telegram_robot</name>
+  <version>0.0.0</version>
+  <description>The telegram_robot package exposes
+    telegram chat bot to ROS.</description>
+
+  <maintainer email="Sammy.Pfeiffer@student.uts.edu.au">Sammy Pfeiffer</maintainer>
+  <maintainer email="Jordan.Lewis@uts.edu.au">Jordan Lewis</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+
+
+</package>
