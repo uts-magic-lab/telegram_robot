@@ -13,6 +13,9 @@ You need to get a TOKEN talking to the @botfather bot as [described here](https:
 
 ## Configure
 Copy from [config/example_token.yaml](config/example_token.yaml) to `token.yaml` and add your token.
+```bash
+cp `rospack find telegram_robot`/config/example_token.yaml `rospack find telegram_robot`/config/token.yaml
+```
 
 ## Launch
 You can test if your token works with:
