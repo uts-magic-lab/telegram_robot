@@ -37,6 +37,7 @@ Then you can do whatever you want with the sentences from any other node you pro
 roslaunch telegram_robot chat_pub.launch
 ```
 ![capture of the telegram chat](telegram_camera_img.png)
+
 Watch it working [in this video](https://www.youtube.com/watch?v=utGU3w-EM3g).
 
 * To drive the robot via a `geometry_msgs/Twist` topic run:
@@ -44,6 +45,7 @@ Watch it working [in this video](https://www.youtube.com/watch?v=utGU3w-EM3g).
 roslaunch telegram_robot arrows.launch
 ```
 ![capture of the custom keyboard](telegram_base_control.jpg)
+
 Watch it working [in this video](https://www.youtube.com/watch?v=92_pIYQuYgE).
 
 ## How we got here
