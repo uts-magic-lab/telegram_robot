@@ -8,7 +8,7 @@ Testing making a few buttons on a keyboard.
 
 TODO: Make the robot say the sentences.
 
-Author: Jordan Lewis <Jordan.Lewis at uts.edu.au>
+Author: Jordan Lewis <dev_jordanlewis at icloud.com>
 """
 import rospy
 import logging

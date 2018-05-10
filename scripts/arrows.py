@@ -8,7 +8,7 @@
 Command via Twist message a robot base
 from Telegram with a custom Keyboard.
 
-Author: Jordan Lewis <Jordan.Lewis at uts.edu.au>
+Author: Jordan Lewis <dev_jordanlewis at icloud.com>
 """
 
 import rospy

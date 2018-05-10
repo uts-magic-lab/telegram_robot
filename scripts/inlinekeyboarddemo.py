@@ -7,7 +7,7 @@
 """
 Inline example with a bit of ROS.
 
-Author: Jordan Lewis <Jordan.Lewis at uts.edu.au>
+Author: Jordan Lewis <dev_jordanlewis at icloud.com>
 """
 
 import rospy
